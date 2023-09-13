@@ -1,24 +1,28 @@
 namespace Shop.Domain.Products;
-public record Sku{
+public record Sku
+{
 
 
-private const int DefaultLength=15;
+    private const int DefaultLength = 15;
 
-public string Value{get; init;}
-private Sku(string value) => Value=value;
-public static Sku Create(string value){
+    public string Value { get; init; }
+    private Sku(string value) => Value = value;
+    public static Sku Create(string value)
+    {
 
-if(string.IsNullOrEmpty(value)){
-  return null;
-}
-if(value.Length !=  DefaultLength){
+        if (string.IsNullOrEmpty(value))
+        {
+            return null;
+        }
+        if (value.Length != DefaultLength)
+        {
 
-    return null;
+            return null;
 
-}
-return new Sku(value);
+        }
+        return new Sku(value);
 
-}
+    }
 
 
 
