@@ -14,14 +14,14 @@ public class Order
         var order = new Order
         {
             Id = Guid.NewGuid(),
-            CustomerId = customer.id
+            CustomerId = customer.Id
         };
         return order;
     }
     public readonly HashSet<LineItem> _lineItems = new();
     public void Add(Product product)
     {
-        var lineItem = new LineItem(Guid.NewGuid(),id, product.Id, product.Price);
+        var lineItem = new LineItem(Guid.NewGuid(), Id, product.Id, product.Price);
 
         _lineItems.Add(lineItem);
 
