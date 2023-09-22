@@ -1,8 +1,6 @@
 namespace Shop.Domain.Products;
 public record Sku
 {
-
-
     private const int DefaultLength = 15;
 
     public string Value { get; init; }
