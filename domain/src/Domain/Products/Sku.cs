@@ -1,10 +1,7 @@
 namespace Shop.Domain.Products;
 public record Sku
 {
-
-
     private const int DefaultLength = 15;
-
     public string Value { get; init; }
     private Sku(string value) => Value = value;
     public static Sku Create(string value)
@@ -23,9 +20,5 @@ public record Sku
         return new Sku(value);
 
     }
-
-
-
-
 
 }
