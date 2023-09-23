@@ -1,0 +1,22 @@
+{
+  "name": "eshop-report-e2e",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "eshop-report-e2e/src",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/playwright:playwright",
+      "outputs": ["{workspaceRoot}/dist/.playwright/eshop-report-e2e"],
+      "options": {
+        "config": "eshop-report-e2e/playwright.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["eshop-report-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "implicitDependencies": ["eshop-report"]
+}
