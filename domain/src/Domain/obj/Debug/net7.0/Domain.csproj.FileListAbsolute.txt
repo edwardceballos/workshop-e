@@ -1,0 +1,5 @@
+E:\Nexura\Projects\workshop-e\domain\src\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Nexura\Projects\workshop-e\domain\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+E:\Nexura\Projects\workshop-e\domain\src\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+E:\Nexura\Projects\workshop-e\domain\src\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+E:\Nexura\Projects\workshop-e\domain\src\Domain\obj\Debug\net7.0\Domain.sourcelink.json

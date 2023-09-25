@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "C3NSmPcxQ1YJGVGtKqWPx8Us83VakTrb7DpTdQ3ctWGDqdjUH0Kx8E739UwQ5OKYjjbiMr9yPul5iUR7BdoStQ==",
+  "success": true,
+  "projectFilePath": "E:\\Nexura\\Projects\\workshop-e\\domain\\src\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.9\\microsoft.netcore.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.9\\microsoft.windowsdesktop.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.9\\microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

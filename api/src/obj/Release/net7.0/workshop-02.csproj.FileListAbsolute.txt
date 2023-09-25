@@ -1,0 +1,8 @@
+E:\Nexura\Projects\workshop-e\api\src\obj\Release\net7.0\workshop-02.csproj.AssemblyReference.cache
+E:\Nexura\Projects\workshop-e\api\src\obj\Release\net7.0\workshop-02.GeneratedMSBuildEditorConfig.editorconfig
+E:\Nexura\Projects\workshop-e\api\src\obj\Release\net7.0\workshop-02.AssemblyInfoInputs.cache
+E:\Nexura\Projects\workshop-e\api\src\obj\Release\net7.0\workshop-02.AssemblyInfo.cs
+E:\Nexura\Projects\workshop-e\api\src\obj\Release\net7.0\workshop-02.csproj.CoreCompileInputs.cache
+E:\Nexura\Projects\workshop-e\api\src\obj\Release\net7.0\workshop-02.MvcApplicationPartsAssemblyInfo.cs
+E:\Nexura\Projects\workshop-e\api\src\obj\Release\net7.0\workshop-02.MvcApplicationPartsAssemblyInfo.cache
+E:\Nexura\Projects\workshop-e\api\src\obj\Release\net7.0\workshop-02.sourcelink.json
