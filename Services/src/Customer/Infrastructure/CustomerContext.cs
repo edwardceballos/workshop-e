@@ -18,8 +18,7 @@ public partial class CustomerContext : DbContext
     public virtual DbSet<Customer> Customers { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Server=.\\SQLExpress;Database=Customer;User=sa;Password=/*789456qwe;Encrypt=false");
-
+        => optionsBuilder.UseSqlServer("Server=.\\SQLExpress;Database=Customer;User=sa;Password=root;Encrypt=false");
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Customer>(entity =>
