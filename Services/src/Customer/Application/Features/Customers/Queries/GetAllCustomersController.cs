@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Customer.Domain.Entities;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Customer.Application.Features.Customers.Queries
 {
@@ -10,10 +12,17 @@ namespace Customer.Application.Features.Customers.Queries
         [HttpGet]
         public async Task<List<GetAllCustomerResponse>> Get()
         {
-            //TODO:Implement here...
+            var context = new CustomerContext();
 
+            var customers = await context.Customers.ToListAsync();
 
-            return null;
+            List<GetAllCustomerResponse> customersResponse = new List<GetAllCustomerResponse>(customers.Select(x => new GetAllCustomerResponse
+            {
+                Name = x.Name,
+                Identification = x.Identification
+            }));
+
+            return customersResponse;
         }
     }
 }
