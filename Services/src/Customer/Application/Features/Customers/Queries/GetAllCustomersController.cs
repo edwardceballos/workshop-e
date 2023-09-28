@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Customer.Domain.Entities;
 
 namespace Customer.Application.Features.Customers.Queries
 {
@@ -12,10 +14,10 @@ namespace Customer.Application.Features.Customers.Queries
         {
             var context = new CustomerContext();
 
-            var listAllCustomers = context.Customers.ToListAsync();
+            var listCustomers = await context.Customers.ToListAsync();
 
             List<GetAllCustomerResponse> listCustomersResponse = new List<GetAllCustomerResponse>
-            (Customers.Select(
+            (listCustomers.Select(
                  customer => new GetAllCustomerResponse{
                     Identification = customer.Identification,
                     Name = customer.Name
